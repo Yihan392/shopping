@@ -35,9 +35,6 @@ shopping-weapp/
 ## 🚀 快速开始
 
 1. 克隆项目到本地：
-   ```bash
-   git clone https://github.com/yourusername/shopping-weapp.git
-   ```
 
 2. 使用微信开发者工具打开项目文件夹。
 

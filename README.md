@@ -1,1 +1,56 @@
-# vigilant-octo-journey
+# 🛍️ Shopping 微信小程序
+
+一个基于微信原生框架开发的购物类小程序，提供商品浏览、购物车、订单管理等功能。
+
+## 📱 功能特点
+
+- 商品列表展示与详情查看
+- 加入购物车与购物车管理
+- 用户登录与个人信息管理
+- 订单创建与查询
+- 分类筛选与搜索功能
+
+## 🛠️ 技术栈
+
+- 微信小程序原生开发
+- JavaScript / WXML / WXSS
+- 微信云开发（如适用）
+
+## 📁 项目结构
+
+```
+shopping-weapp/
+├── components/          # 自定义组件
+├── images/              # 图片资源
+├── pages/               # 页面文件
+├── utils/               # 工具函数
+├── app.js               # 小程序逻辑
+├── app.json             # 全局配置
+├── app.wxss             # 全局样式
+├── project.config.json  # 项目配置
+├── sitemap.json         # 站点地图配置
+└── README.md
+```
+
+## 🚀 快速开始
+
+1. 克隆项目到本地：
+   ```bash
+   git clone https://github.com/yourusername/shopping-weapp.git
+   ```
+
+2. 使用微信开发者工具打开项目文件夹。
+
+3. 在 `project.config.json` 中配置你的 `appid`。
+
+4. 编译并运行项目。
+
+## 🔧 环境要求
+
+- 微信开发者工具（最新版本）
+- 微信小程序账号（用于真机预览与发布）
+
+## 📌 注意事项
+
+- 如果使用云开发，请确保已在 `app.js` 中正确初始化云环境。
+- 请根据实际业务需求配置合法域名与服务器接口。

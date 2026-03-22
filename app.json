@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/trolley/trolley",
+    "pages/personal/personal",
+    "components/goodsNum/goodsNum"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "登录",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#ebf2f7",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index_sel.png"
+    },
+  {
+    "pagePath": "pages/classify/classify",
+    "text": "分类",
+    "iconPath": "images/sort.png",
+    "selectedIconPath": "images/sort_sel.png"
+  },
+  {
+    "pagePath": "pages/trolley/trolley",
+    "text": "购物车",
+    "iconPath": "images/shop.png",
+    "selectedIconPath": "images/shop_sel.png"
+  },
+  {
+    "pagePath": "pages/personal/personal",
+    "text": "个人中心",
+    "iconPath": "images/me.png",
+    "selectedIconPath": "images/me_sel.png"
+  }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "entryPagePath":"pages/classify/classify"
+}
